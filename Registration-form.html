@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Styling Form</title>
+  <style>
+    input {
+      background-color: lightyellow;
+      border: 5px double black;
+      padding: 3px;
+    }
+    input[type="button"]:hover {
+      background-color: yellow;
+    }
+    input[type="button"] {
+      margin-right: 20px;
+    }
+    h2 {
+      color: tomato;
+    }
+    form {
+      border: 5px double brown;
+      margin: 5px;
+      padding: 10px;
+      width: 400px;
+      background-color: lightyellow;
+    }
+  </style>
+</head>
+<body>
+  <h1><u>Registration Form</u></h1>
+
+  <form>
+    <h2>Step 1:</h2>
+    Username: <input type="text" name="username"><br><br>
+    Password: <input type="password" name="password"><br><br>
+
+    <input type="button" value="Forgot Password">
+    <input type="button" value="Next <<">
+
+    <h2>Step 2:</h2>
+    First name: <input type="text" name="first_name"><br><br>
+    Last name: <input type="text" name="last_name"><br><br>
+    Email Id: <input type="email" name="email"><br><br>
+    Mobile Number: <input type="tel" name="mobile"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
